@@ -10,79 +10,159 @@
   body { font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
     color:var(--ink); line-height:1.7; max-width:760px; margin:0 auto; padding:32px 22px 80px; background:#fff; }
   h1 { color:var(--indigo); font-size:28px; margin-bottom:4px; }
-  .updated { color:var(--muted); font-size:14px; margin-bottom:28px; }
+  .sub { color:var(--muted); font-size:15px; margin-bottom:6px; }
+  .date { color:var(--muted); font-size:14px; margin-bottom:30px; }
   h2 { font-size:20px; margin-top:34px; border-bottom:2px solid var(--line); padding-bottom:8px; }
+  h3 { font-size:16px; margin-top:22px; margin-bottom:6px; }
   p, li { font-size:16px; color:#333; }
-  ul { padding-left:22px; }
+  ul, ol { padding-left:22px; }
   a { color:var(--indigo); }
   .box { background:#eef2ff; border-radius:12px; padding:16px 18px; margin-top:16px; }
+  table { width:100%; border-collapse:collapse; margin-top:14px; font-size:15px; }
+  th, td { text-align:left; padding:10px 8px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { color:var(--muted); font-weight:600; font-size:14px; }
+  .mail { font-weight:700; font-size:17px; }
   footer { margin-top:48px; color:var(--muted); font-size:14px; border-top:1px solid var(--line); padding-top:18px; }
 </style>
 </head>
 <body>
-  <h1>Gizlilik Politikası</h1>
-  <div class="updated">LingoLese · Son güncelleme: 7 Haziran 2026</div>
+  <h1>LingoLese — Gizlilik Politikası</h1>
+  <div class="sub">Almanca okuma ve kelime öğrenme uygulaması</div>
+  <div class="date">Son güncelleme: 11 Ekim 2026</div>
 
-  <p>Bu gizlilik politikası, LingoLese ("uygulama") tarafından hangi bilgilerin toplandığını,
-  bu bilgilerin nasıl kullanıldığını ve korunduğunu açıklar. Uygulamayı kullanarak bu politikada
-  açıklanan uygulamaları kabul etmiş olursunuz.</p>
+  <p>Bu politika, <strong>LingoLese</strong> mobil uygulamasının hangi verileri
+  topladığını, bunları neden topladığını ve nasıl koruduğunu açıklar. Uygulamayı
+  kullanarak bu politikayı kabul etmiş olursunuz.</p>
 
-  <h2>1. Topladığımız Bilgiler</h2>
-  <p>LingoLese, yalnızca uygulamanın çalışması için gerekli olan asgari bilgiyi toplar:</p>
-  <ul>
-    <li><strong>E-posta adresi:</strong> Yalnızca isteğe bağlı hesap oluşturduğunuzda. Hesabınızı
-    tanımlamak ve ilerlemenizi cihazlar arasında senkronlamak için kullanılır.</li>
-    <li><strong>Öğrenme verileri:</strong> Kaydettiğiniz kelimeler, tekrar (aralıklı tekrar) durumunuz,
-    okuma serisi ve puanınız (XP). Bunlar yalnızca öğrenme ilerlemenizi takip etmek için kullanılır.</li>
-  </ul>
   <div class="box">
-    <strong>Hesap oluşturmadan kullanım:</strong> Uygulamayı giriş yapmadan da kullanabilirsiniz.
-    Bu durumda tüm verileriniz yalnızca kendi cihazınızda saklanır ve tarafımıza hiçbir bilgi gönderilmez.
+    <strong>Kısa özet:</strong> Uygulamayı hesap açmadan kullanırsanız hiçbir
+    kişisel veriniz bize ulaşmaz — her şey yalnızca telefonunuzda kalır.
+    Hesap açarsanız yalnızca e-posta adresiniz ve öğrenme verileriniz
+    (kaydettiğiniz kelimeler, ilerlemeniz) saklanır. Reklam göstermiyoruz,
+    sizi takip etmiyoruz, verilerinizi kimseye satmıyoruz.
   </div>
 
-  <h2>2. Toplamadığımız Bilgiler</h2>
+  <h2>1. Hesap açmadan kullanım</h2>
+  <p>LingoLese'nin tamamı hesap açmadan kullanılabilir. Bu durumda:</p>
   <ul>
-    <li>Konum bilgisi toplamıyoruz.</li>
-    <li>Rehber, fotoğraf veya cihaz dosyalarınıza erişmiyoruz.</li>
-    <li>Reklam göstermiyor, reklam kimliği toplamıyoruz.</li>
-    <li>Verilerinizi üçüncü taraflara satmıyoruz.</li>
+    <li>Kaydettiğiniz kelimeler, okuma ilerlemeniz, seriniz ve puanınız
+    <strong>yalnızca cihazınızın kendi depolama alanında</strong> tutulur.</li>
+    <li>Bu veriler bize veya başka hiç kimseye gönderilmez.</li>
+    <li>Uygulamayı telefonunuzdan sildiğinizde bu veriler de silinir.</li>
   </ul>
 
-  <h2>3. Bilgilerin Saklanması ve Güvenliği</h2>
-  <p>Hesap oluşturduğunuzda, e-posta adresiniz ve öğrenme verileriniz Google'ın Firebase altyapısında
-  (Google LLC) güvenli biçimde saklanır. Veriler aktarım sırasında şifrelenir (HTTPS). Şifreniz
-  Firebase Authentication tarafından şifrelenmiş olarak tutulur ve tarafımızca görülemez.</p>
+  <h2>2. Hesap açtığınızda toplanan veriler</h2>
+  <p>İlerlemenizi yedeklemek ve başka bir cihazda kaldığınız yerden devam etmek
+  isterseniz hesap açabilirsiniz. Bu tamamen isteğe bağlıdır.</p>
 
-  <h2>4. Üçüncü Taraf Hizmetler</h2>
-  <p>Uygulama, aşağıdaki Google hizmetlerini kullanır:</p>
+  <table>
+    <tr><th>Veri</th><th>Neden toplanıyor</th></tr>
+    <tr>
+      <td><strong>E-posta adresi</strong></td>
+      <td>Hesabınızı oluşturmak, giriş yapmanızı sağlamak ve şifrenizi
+      sıfırlamanız gerektiğinde size bağlantı göndermek için.</td>
+    </tr>
+    <tr>
+      <td><strong>Şifre</strong></td>
+      <td>Google Firebase Authentication tarafından şifrelenmiş olarak saklanır.
+      Şifrenizi biz göremeyiz ve saklamıyoruz.</td>
+    </tr>
+    <tr>
+      <td><strong>Öğrenme verileriniz</strong><br>
+      <span style="color:#6b7280;font-size:14px">kaydedilen kelimeler, tekrar
+      durumu, okunan metinler, seviye, seri, puan</span></td>
+      <td>Yalnızca ilerlemenizi yedeklemek ve cihazlar arasında
+      eşitlemek için.</td>
+    </tr>
+  </table>
+
+  <h3>Toplamadığımız veriler</h3>
+  <p>Uygulama şunları <strong>istemez ve toplamaz</strong>: adınız, telefon
+  numaranız, konumunuz, rehberiniz, fotoğraflarınız, kameranız, mikrofonunuz,
+  takvim bilgileriniz, sağlık verileriniz, ödeme bilgileriniz, reklam kimliğiniz.</p>
+
+  <h2>3. Verileriniz nerede saklanıyor</h2>
+  <p>Hesap verileriniz <strong>Google Firebase</strong> (Firebase Authentication
+  ve Cloud Firestore) üzerinde saklanır. Firebase, Google LLC'nin bir hizmetidir
+  ve verileri Google'ın güvenli sunucularında tutar. Veri aktarımı
+  <strong>HTTPS</strong> ile şifrelenir.</p>
+  <p>Firebase'in gizlilik politikası:
+  <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">firebase.google.com/support/privacy</a></p>
+
+  <h2>4. Reklam, takip ve analitik</h2>
+  <p>LingoLese:</p>
   <ul>
-    <li><strong>Firebase Authentication</strong> — hesap girişi için.</li>
-    <li><strong>Cloud Firestore</strong> — öğrenme verilerinizin senkronu için.</li>
+    <li><strong>reklam göstermez</strong> ve hiçbir reklam ağı kullanmaz,</li>
+    <li><strong>kullanıcı takibi yapmaz</strong> — verilerinizi başka
+    şirketlerin verileriyle eşleştirmez,</li>
+    <li><strong>analitik veya çökme raporlama aracı kullanmaz</strong>
+    (Google Analytics, Firebase Analytics, Crashlytics kurulu değildir),</li>
+    <li>verilerinizi <strong>hiçbir koşulda satmaz</strong> veya veri
+    simsarlarına vermez.</li>
   </ul>
-  <p>Bu hizmetlerin gizlilik uygulamaları için Google Gizlilik Politikası'na bakabilirsiniz:
-  <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p>
 
-  <h2>5. Çocukların Gizliliği</h2>
-  <p>Uygulama genel kitleye yöneliktir ve bilerek 13 yaşından küçük çocuklardan kişisel veri toplamaz.</p>
+  <h2>5. Okuma içerikleri nasıl geliyor</h2>
+  <p>Hikâyeler ve kapak görselleri uygulamanın içerik sunucusundan
+  (GitHub üzerinde barındırılan statik dosyalar) indirilir ve cihazınıza
+  kaydedilir. Bu istekler sırasında bize kimlik bilgisi gitmez; indirme bir kez
+  tamamlandıktan sonra uygulama çevrimdışı da çalışır.</p>
 
-  <h2>6. Verilerinize Erişim ve Silme Hakkı</h2>
-  <p>Hesabınızı ve onunla ilişkili tüm verileri silmek isterseniz, aşağıdaki e-posta adresinden
-  bizimle iletişime geçebilirsiniz. Talebiniz üzerine hesabınız ve bulutta saklanan tüm öğrenme
-  verileriniz kalıcı olarak silinir.</p>
+  <h2>6. Seslendirme (metin okuma)</h2>
+  <p>Almanca telaffuz, <strong>cihazınızın kendi konuşma sentezleyicisi</strong>
+  ile üretilir (iOS'ta AVSpeechSynthesizer, Android'de sistem TTS). Ses verisi
+  internete gönderilmez, kaydedilmez. Uygulama mikrofon izni istemez.</p>
+
+  <h2>7. Hesabınızı ve verilerinizi silme</h2>
+  <p>Hesabınızı dilediğiniz zaman <strong>uygulamanın içinden</strong>
+  silebilirsiniz:</p>
+  <ol>
+    <li>Alt menüden <strong>Hesap</strong> sekmesine gidin</li>
+    <li><strong>Hesabımı sil</strong> bağlantısına dokunun</li>
+    <li>Güvenlik için şifrenizi girin ve onaylayın</li>
+  </ol>
+  <p>Bu işlem <strong>Firebase Authentication hesabınızı</strong> ve
+  <strong>Cloud Firestore'daki tüm öğrenme verilerinizi kalıcı olarak</strong>
+  siler. İşlem geri alınamaz.</p>
+  <p>Dilerseniz aşağıdaki e-posta adresinden de silme talebinde bulunabilirsiniz;
+  talebiniz en geç 30 gün içinde yerine getirilir.</p>
+
+  <h2>8. Haklarınız</h2>
+  <p>KVKK (6698 sayılı Kanun) ve GDPR kapsamında şu haklara sahipsiniz:</p>
+  <ul>
+    <li>Hakkınızda hangi verilerin tutulduğunu öğrenme,</li>
+    <li>Verilerinizin bir kopyasını isteme,</li>
+    <li>Yanlış verilerin düzeltilmesini isteme,</li>
+    <li>Verilerinizin silinmesini isteme,</li>
+    <li>Verilerinizin işlenmesine itiraz etme.</li>
+  </ul>
+  <p>Bu haklarınızı kullanmak için aşağıdaki e-posta adresinden bize yazın.</p>
+
+  <h2>9. Çocukların gizliliği</h2>
+  <p>Uygulama 4 yaş ve üzeri herkese uygundur ve çocuklardan bilinçli olarak
+  kişisel veri toplamaz. Hesap açmak isteğe bağlıdır. 13 yaşından küçük bir
+  çocuğun bize e-posta adresi verdiğini düşünüyorsanız bize yazın; veriyi
+  siliyoruz.</p>
+
+  <h2>10. Veri saklama süresi</h2>
+  <p>Hesap verileriniz, hesabınız açık olduğu sürece saklanır. Hesabınızı
+  sildiğinizde veriler kalıcı olarak silinir ve yedeklerden de temizlenir.</p>
+
+  <h2>11. Bu politikada değişiklik</h2>
+  <p>Politika güncellenirse bu sayfadaki "Son güncelleme" tarihi değişir. Önemli
+  bir değişiklik olursa uygulama içinde bilgilendirme yapılır.</p>
+
+  <h2>12. İletişim</h2>
   <div class="box">
-    Veri silme talebi için: <strong>ibrahimcmn13@gmail.com</strong>
+    Gizlilikle ilgili her soru, talep ve silme isteği için:<br>
+    <span class="mail">[ibrahimcmen13@gmail.com]</span><br>
+    Veri sorumlusu: İbrahim Çimen
   </div>
 
-  <h2>7. Değişiklikler</h2>
-  <p>Bu politika zaman zaman güncellenebilir. Önemli değişiklikler bu sayfada yayımlanır ve
-  "son güncelleme" tarihi değiştirilir.</p>
-
-  <h2>8. İletişim</h2>
-  <p>Gizlilikle ilgili sorularınız için: <strong>ibrahimcmn13@gmail.com</strong></p>
+  <p style="margin-top:22px">Destek ve sık sorulan sorular:
+  <a href="./destek.html">destek sayfası</a></p>
 
   <footer>
-    LingoLese — Almanca okuma ve kelime öğrenme uygulaması.<br>
-    Bu sayfa uygulamanın gizlilik politikasıdır.
+    LingoLese · Geliştirici: İbrahim Çimen · Son güncelleme: 11 Ekim 2026
   </footer>
 </body>
 </html>
